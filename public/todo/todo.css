@@ -1,0 +1,73 @@
+/* /css/style.css の上に、TODO画面用の見た目を追加する */
+@media (max-width: 600px) {
+  body {
+    padding: 16px;
+  }
+}
+
+.todo {
+  text-align: left;
+}
+
+.todo h1 {
+  text-align: center;
+}
+
+.todo-note {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.todo-form-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.todo-form-row input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px;
+  font-size: 1em;
+}
+
+.todo-status {
+  min-height: 1.2em;
+  color: #666;
+}
+
+.todo-error {
+  min-height: 1.2em;
+  color: #c00;
+}
+
+.todo-empty {
+  color: #666;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.todo-item label {
+  flex: 1;
+  overflow-wrap: anywhere;
+}
+
+.todo-item.is-completed label {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.todo-item button {
+  padding: 6px 12px;
+}
