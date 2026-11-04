@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODOアプリ</title>
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/todo/todo.css">
+</head>
+
+<body>
+  <main class="todo">
+    <h1>TODOアプリ</h1>
+    <p class="todo-note">授業用の架空のデータだけを登録してください。このページは誰でも操作できます。</p>
+
+    <!-- 登録フォーム(REQ-02) -->
+    <form id="todoForm" class="todo-form">
+      <label for="todoTitle">タイトル</label>
+      <div class="todo-form-row">
+        <input id="todoTitle" type="text" maxlength="100" placeholder="例:課題を提出する" autocomplete="off">
+        <button id="addButton" type="submit">追加</button>
+      </div>
+    </form>
+
+    <!-- 処理中・エラーの表示 -->
+    <p id="statusMessage" class="todo-status" role="status"></p>
+    <p id="errorMessage" class="todo-error" role="alert"></p>
+
+    <!-- 一覧(REQ-01)。各行の完了切替(REQ-03)と削除(REQ-04)はtodo.jsで作る -->
+    <p id="emptyMessage" class="todo-empty" hidden>TODOがありません</p>
+    <ul id="todoList" class="todo-list"></ul>
+
+    <p><a href="/">トップページへ戻る</a></p>
+  </main>
+  <script src="/todo/todo.js"></script>
+</body>
+</html>
