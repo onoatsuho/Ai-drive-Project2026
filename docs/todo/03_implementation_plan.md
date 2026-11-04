@@ -173,4 +173,4 @@
 
 - 作業: Preview で V1 を確認したら main にマージする。Production URL(https://ai-drive-project2026-eta.vercel.app/todo)で同じ項目を確認し、`04_test_results.md` に追記してコミット・push する。
 - 失敗時に最初に見る場所: Production の Deployment のソースブランチが main か、Production の環境変数。
-- 状態: 未実施
+- 状態: 完了(2026-11-04。PR #2 をマージし、Production で API 31項目と画面の操作を確認)
