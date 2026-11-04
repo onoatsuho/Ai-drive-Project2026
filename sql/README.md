@@ -15,6 +15,6 @@
 
 | 項目 | 内容 |
 | --- | --- |
-| 対象(Neonブランチ・DB) | 【ブランチ名】・neondb |
-| 実行日 | 【実行日】 |
-| 結果 | 【例: エラーなし。SELECT * FROM todo_tasks ORDER BY id で0件】 |
+| 対象(Neonブランチ・DB) | primary・neondb |
+| 実行日 | 2026-11-04 |
+| 結果 | エラーなし。SELECT * FROM todo_tasks ORDER BY id で0件。列(id・title・is_completed・created_at)が設計どおりであることを確認 |
