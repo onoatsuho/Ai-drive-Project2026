@@ -162,12 +162,12 @@
 - 期待結果: Preview で Local と同じ結果。
 - 失敗時に最初に見る場所: Vercel の Build Logs、Function Logs、Preview の環境変数 `DATABASE_URL`。
 - 注意: Preview と Production は同じ DB を使う。自分で作った ID だけを更新・削除する。
-- 状態: push とビルドは完了(2026-11-04)。Preview の動作確認は未実施
+- 状態: 完了(2026-11-04。ブラウザで画面の操作と既存ページを確認)
 
 ## 13 Pull Request
 
 - 作業: `feature/todo-app` → `main` の PR を作り、変更内容、Preview URL、テスト結果、未解決事項を書く。
-- 状態: 作成済み(https://github.com/onoatsuho/Ai-drive-Project2026/pull/2)。Preview の結果は確認後に追記する
+- 状態: 作成済み(https://github.com/onoatsuho/Ai-drive-Project2026/pull/2)。Preview の結果を追記済み
 
 ## 14 マージと Production テスト
 
